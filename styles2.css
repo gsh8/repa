@@ -1,0 +1,52 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: #6e8197;
+/*	background: linear-gradient(black, white);*/
+	/* background-image: url(images/bg.jpg); */
+}
+div {
+	background: linear-gradient(#2e3192, #6e8197);
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+	color: white;
+}
+div div {
+	background: #2e4193;
+}
+div div div {
+	background: #3e5194;
+}
+div div div div {
+	background: #4e6195;
+}
+div div div div div {
+	background: #5e7196;
+}
+div div div div div div {
+	background: #6e8197;
+}
+ul {
+	background: #6e8197;
+}
+.task1 li {
+	color: #2c3e50;
+	font-weight: 700;
+}
+.task1 li:hover {
+	color: #ffff7e;
+	text-decoration: underline;
+} li:first-child {}
+
+.task1 li:last-child {}
+
+.task2 a:hover {} 
+
+.task1 ~ .task2 {
+
+}
+
+.task1:before {
+	content: attr(data-text);
+}
+
